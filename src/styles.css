@@ -1,0 +1,22 @@
+.icon-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.icon-title-container i {
+  font-size: 2rem;
+  margin-right: 0.5rem; 
+}
+
+.icon-title-container h1 {
+  margin-top: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #B2FEFA; 
+background: -webkit-linear-gradient(to right, #b1e7f2, #b7e2e0);
+background: linear-gradient(to right, #b1e7f2, #b7e2e0);
+}

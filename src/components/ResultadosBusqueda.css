@@ -1,0 +1,41 @@
+/* Ajusta estas clases a tu archivo de estilos CSS */
+.star {
+    display: inline-block;
+    width: 20px; /* Ajusta el tamaño según sea necesario */
+    height: 20px; /* Ajusta el tamaño según sea necesario */
+    background-color: transparent;
+    border: 1px solid #ccc;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  }
+  
+  .filled {
+    background-color: #ffc107; /* Color de estrellas llenas, puedes ajustar esto */
+  }
+  
+  .half-filled {
+    background-image: linear-gradient(90deg, #ffc107 50%, transparent 50%); /* Color de estrellas a la mitad */
+  }
+  
+  .card-title {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .card-text {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1 0 300px; /* Establece un tamaño base y permite que se expandan */
+    margin: 0 15px 15px 0; /* Ajusta los márgenes según sea necesario */
+  }
+
+  .text-bold {
+    font-weight: bold;
+  }
+  
