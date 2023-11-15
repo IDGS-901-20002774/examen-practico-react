@@ -10,7 +10,7 @@ const DetalleProducto = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`http://givy0905-001-site1.atempurl.com/api/items/${id}`);
+        const response = await fetch(`https://givy0905-001-site1.atempurl.com/api/items/${id}`);
         const data = await response.json();
         setProductoDetalle(data);
       } catch (error) {

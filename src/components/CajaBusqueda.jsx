@@ -23,7 +23,7 @@ const CajaBusqueda = ({ onSearch }) => {
 
   const handleSearch = async () => {
     try {
-      const response = await fetch(`http://givy0905-001-site1.atempurl.com/api/items?q=${searchQuery}`);
+      const response = await fetch(`https://givy0905-001-site1.atempurl.com/api/items?q=${searchQuery}`);
       const data = await response.json();
       setSearchResults(data.products);
 
